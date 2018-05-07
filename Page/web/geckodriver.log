@@ -1,0 +1,99 @@
+1507616067556	geckodriver	INFO	Listening on 127.0.0.1:55676
+1507616069718	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1507616073023	Marionette	INFO	Listening on port 55689
+1507616073364	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507616095790	geckodriver	INFO	Listening on 127.0.0.1:55775
+1507616097889	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1507616100465	Marionette	INFO	Listening on port 55785
+1507616101018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507616136844	geckodriver	INFO	Listening on 127.0.0.1:55875
+1507616138944	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1507616141417	Marionette	INFO	Listening on port 55895
+1507616142078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507616198492	geckodriver	INFO	Listening on 127.0.0.1:56050
+1507616200612	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1507616203158	Marionette	INFO	Listening on port 56060
+1507616203748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628225791	geckodriver	INFO	Listening on 127.0.0.1:54456
+1507628227852	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1507628230850	Marionette	INFO	Listening on port 54466
+1507628231126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628254423	geckodriver	INFO	Listening on 127.0.0.1:54574
+1507628256468	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1507628259258	Marionette	INFO	Listening on port 54582
+1507628259598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628338936	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20selenium%20%E7%AD%89%E5%BE%85&json=1&p=3&sid=1443_21102_17001&req=2&pbs=python%20selenium&csor=18&pwd=python%20selenium%20deng%27dai&cb=jQuery11020024704554551231328_1507690466219&_=1507690466245, line 1: TypeError: jQuery11020024704554551231328_1507690466219 is not a function
+JavaScript error: https://iknowpc.bdimg.com/static/question/pkg/login.d784005.js, line 10: TypeError: t.list is undefined
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://www.jb51.net/jslib/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://sp2.baidu.com/yLMWfHSm2Q5IlBGlnYG/browserextension/v1/detect.js?_=1507722730848, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.baidu.com/baidu?wd=www&tn=monline_4_dg&ie=utf-8, line 3832: TypeError: bdb is undefined
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E7%9F%A5%E4%B9%8E&json=1&p=3&sid=1437_21099_20719&req=2&bs=python%20for%20in%20range&pbs=%E6%99%BA%E9%BD%BF&csor=2&pwd=zhi%27hu&cb=jQuery110201397434613421472_1507723974430&_=1507723974644, line 1: TypeError: jQuery110201397434613421472_1507723974430 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E5%A5%B3%E5%8F%8Bd%E7%9F%A5%E4%B9%8E&json=1&p=3&sid=1437_21099_20719&req=2&bs=%E7%9F%A5%E4%B9%8E&pbs=%E7%9F%A5%E4%B9%8E&csor=3&pwd=%E5%A5%B3%E5%8F%8B%E7%9F%A5%E4%B9%8E&cb=jQuery110201397434613421472_1507723974430&_=1507723974652, line 1: TypeError: jQuery110201397434613421472_1507723974430 is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23, line 500: unreachable code after return statement
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9list%20%E8%B5%8B%E5%80%BC&json=1&p=3&sid=1437_21099_20719&req=2&bs=list%20python%20%E8%B5%8B%E5%80%BC&pbs=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9list&csor=17&pwd=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9list%20f&cb=jQuery110201397434613421472_1507723974430&_=1507723974758, line 1: TypeError: jQuery110201397434613421472_1507723974430 is not a function
+JavaScript warning: http://www.jb51.net/jslib/jq/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9&json=1&p=3&sid=1437_21099_20719&req=2&bs=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9list%20%E8%B5%8B%E5%80%BC&pbs=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9list%20%E8%B5%8B%E5%80%BC&csor=10&pwd=python%20%E5%BE%AA%E7%8E%AF%E5%AF%B9l&cb=jQuery110201397434613421472_1507723974430&_=1507723974768, line 1: TypeError: jQuery110201397434613421472_1507723974430 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E8%B5%84%E8%B4%A8zhuan%27ye&json=1&p=3&sid=1437_21099_20719&req=2&bs=17%E4%B8%AA%E6%96%B0%E6%89%8B%E5%B8%B8%E8%A7%81Python%E8%BF%90%E8%A1%8C%E6%97%B6%E9%94%99%E8%AF%AF&pbs=%E8%B5%84%E8%B4%A8%E8%BD%AC%E8%AE%A9&csor=10&pwd=%E8%B5%84%E8%B4%A8zhuan&cb=jQuery110206544085365285428_1507798954915&_=1507798954937, line 1: TypeError: jQuery110206544085365285428_1507798954915 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E8%B5%84%E8%B4%A8%E4%B8%93%E4%B8%9A&json=1&p=3&sid=1437_21099_20719&req=2&bs=17%E4%B8%AA%E6%96%B0%E6%89%8B%E5%B8%B8%E8%A7%81Python%E8%BF%90%E8%A1%8C%E6%97%B6%E9%94%99%E8%AF%AF&pbs=%E8%B5%84%E8%B4%A8%E8%BD%AC%E8%AE%A9&csor=4&pwd=%E8%B5%84%E8%B4%A8zhuan%27ye&cb=jQuery110206544085365285428_1507798954915&_=1507798954938, line 1: TypeError: jQuery110206544085365285428_1507798954915 is not a function
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript warning: http://s3.music.126.net/sep/s/2/core.js?2cf79b91eaa71b2d2ccd0ebe5d905310, line 91: unreachable code after return statement
+JavaScript warning: http://s3.music.126.net/sep/s/2/core.js?2cf79b91eaa71b2d2ccd0ebe5d905310, line 91: unreachable code after return statement
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+1507864668372	Marionette	INFO	Ceased listening

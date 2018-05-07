@@ -1,0 +1,342 @@
+[35m[Appium][39m Welcome to Appium v1.8.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   sessionOverride: true
+[35m[Appium][39m   defaultCommandTimeout: 600
+[35m[Appium][39m   udid: a6a6a8b39904
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m-U,--udid[39m => --default-capabilities '{"udid":"a6a6a8b39904"}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   udid: a6a6a8b39904
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"7.0","appPackage":"com.zld.zld_face_rec_app","appActivity":".Login.LaunchActivity","chromeOptions":{"androidProcess":"com.zld.zld_face_rec_app"},"showChromedriverLog":true,"recreateChromeDriverSessions":true}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"7.0","appPackage":"com.zld.zld_face_rec_app","appActivity":".Login.LaunchActivity","chromeOptions":{"androidProcess":"com.zld.zld_face_rec_app"},"showChromedriverLog":true,"recreateChromeDriverSessions":true},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1524473027983 (16:43:47 GMT+0800 (ä¸­å›½æ ‡å‡†æ—¶é—´))
+[35m[BaseDriver][39m The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["udid","platformName","deviceName","platformVersion","appPackage","appActivity","chromeOptions","showChromedriverLog","recreateChromeDriverSessions"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Creating new AndroidDriver (v2.4.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   udid: a6a6a8b39904
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   deviceName: a6a6a8b39904
+[35m[Appium][39m   platformVersion: 7.0
+[35m[Appium][39m   appPackage: com.zld.zld_face_rec_app
+[35m[Appium][39m   appActivity: .Login.LaunchActivity
+[35m[Appium][39m   chromeOptions: {
+[35m[Appium][39m     androidProcess: com.zld.zld_face_rec_app
+[35m[Appium][39m   }
+[35m[Appium][39m   showChromedriverLog: true
+[35m[Appium][39m   recreateChromeDriverSessions: true
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {"udid":"a6a6a8b39904","pla...
+[35m[BaseDriver][39m Session created with session id: 69f63897-bcc2-416f-9916-a39e9e4baf73
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_131
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 22 'build-tools' folders under 'C:\android-sdk' (newest first):
+[35m[ADB][39m     C:/android-sdk/build-tools/27.0.2
+[35m[ADB][39m     C:/android-sdk/build-tools/27.0.1
+[35m[ADB][39m     C:/android-sdk/build-tools/27.0.0
+[35m[ADB][39m     C:/android-sdk/build-tools/26.0.3
+[35m[ADB][39m     C:/android-sdk/build-tools/26.0.2
+[35m[ADB][39m     C:/android-sdk/build-tools/26.0.1
+[35m[ADB][39m     C:/android-sdk/build-tools/26.0.0
+[35m[ADB][39m     C:/android-sdk/build-tools/25.0.3
+[35m[ADB][39m     C:/android-sdk/build-tools/25.0.2
+[35m[ADB][39m     C:/android-sdk/build-tools/25.0.1
+[35m[ADB][39m     C:/android-sdk/build-tools/25.0.0
+[35m[ADB][39m     C:/android-sdk/build-tools/24.0.3
+[35m[ADB][39m     C:/android-sdk/build-tools/24.0.2
+[35m[ADB][39m     C:/android-sdk/build-tools/24.0.1
+[35m[ADB][39m     C:/android-sdk/build-tools/24.0.0
+[35m[ADB][39m     C:/android-sdk/build-tools/23.0.3
+[35m[ADB][39m     C:/android-sdk/build-tools/23.0.2
+[35m[ADB][39m     C:/android-sdk/build-tools/23.0.1
+[35m[ADB][39m     C:/android-sdk/build-tools/22.0.1
+[35m[ADB][39m     C:/android-sdk/build-tools/21.1.2
+[35m[ADB][39m     C:/android-sdk/build-tools/20.0.0
+[35m[ADB][39m     C:/android-sdk/build-tools/19.1.0
+[35m[ADB][39m Using adb.exe from C:\android-sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[35m[AndroidDriver][39m Using device: a6a6a8b39904
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from C:\android-sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to a6a6a8b39904
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run com.zld.zld_face_rec_app directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell pm list packages com.zld.zld_face_rec_app'
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\android-sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell ps'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 24
+[debug] [35m[ADB][39m Device API level: 24
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell appops set io.appium.settings android\:mock_location allow'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell dumpsys package io.appium.unlock'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\android-sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 7.0
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': Redmi Note 4X
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.zld.zld_face_rec_app
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell pm list packages com.zld.zld_face_rec_app'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell am force-stop com.zld.zld_face_rec_app'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell pm clear com.zld.zld_face_rec_app'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.zld.zld_face_rec_app' application (stop and clear)
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 push C\:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.1\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","a6a6a8b39904","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.zld.zld_face_rec_app","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Device API level: 24
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell am start -W -n com.zld.zld_face_rec_app/.Login.LaunchActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 69f63897-bcc2-416f-9916-a39e9e4baf73 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1524473037835 (16:43:57 GMT+0800 (ä¸­å›½æ ‡å‡†æ—¶é—´))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"a6a6a8b39904","platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"7.0","appPackage":"com.zld.zld_face_rec_app","appActivity":".Login.LaunchActivity","chromeOptions":{"androidProcess":"com.zld.zld_face_rec_app"},"showChromedriverLog":true,"recreateChromeDriverSessions":true},"udid":"a6a6a8b39904","platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"7.0","appPackage":"com.zld.zld_face_rec_app","appActivity":".Login.LaunchActivity","chromeOptions":{"androidProcess":"com.zld.zld_face_rec_app"},"showChromedriverLog":true,"recreateChromeDriverSessions":true,"deviceUDID":"a6a6a8b39904","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 4X","deviceManufacturer":"Xiaomi"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9864 ms - 1002[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.zld.zld_face_rec_app:id/et_name","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["id","com.zld.zld_face_rec_app:id/et_name","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.zld.zld_face_rec_app:id/et_name","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.zld.zld_face_rec_app:id/et_name","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.zld.zld_face_rec_app:id/et_name' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.zld.zld_face_rec_app:id/et_name]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[W3C][39m Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element [39m[32m200[39m [90m83 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element/1/value[39m
+[35m[HTTP][39m [90m{"text":"13735489517","value":["1","3","7","3","5","4","8","9","5","1","7"],"id":"1","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setValue() with args: [["1","3","7","3","5","4","8","9","5","1","7"],"1","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"13735489517","replace":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"13735489517","replace":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: setText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using element passed in: 1
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Sending plain text to element: 13735489517
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C][39m Responding to client with driver.setValue() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element/1/value [39m[32m200[39m [90m5689 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.zld.zld_face_rec_app:id/et_pwd","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["id","com.zld.zld_face_rec_app:id/et_pwd","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.zld.zld_face_rec_app:id/et_pwd","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.zld.zld_face_rec_app:id/et_pwd","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.zld.zld_face_rec_app:id/et_pwd' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.zld.zld_face_rec_app:id/et_pwd]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C][39m Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element [39m[32m200[39m [90m483 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element/2/value[39m
+[35m[HTTP][39m [90m{"text":"123456","value":["1","2","3","4","5","6"],"id":"2","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setValue() with args: [["1","2","3","4","5","6"],"2","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"123456","replace":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"123456","replace":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: setText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using element passed in: 2
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Sending plain text to element: 123456
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C][39m Responding to client with driver.setValue() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element/2/value [39m[32m200[39m [90m5152 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.zld.zld_face_rec_app:id/btn_login","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["id","com.zld.zld_face_rec_app:id/btn_login","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.zld.zld_face_rec_app:id/btn_login","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.zld.zld_face_rec_app:id/btn_login","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.zld.zld_face_rec_app:id/btn_login' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.zld.zld_face_rec_app:id/btn_login]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C][39m Responding to client with driver.findElement() result: {"ELEMENT":"3"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element [39m[32m200[39m [90m477 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element/3/click[39m
+[35m[HTTP][39m [90m{"id":"3","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.click() with args: ["3","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/element/3/click [39m[32m200[39m [90m345 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@resource-id='com.zld.zld_face_rec_app:id/recycler_view']/LinearLayout","sessionId":"69f63897-bcc2-416f-9916-a39e9e4baf73"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@resource-id='com.zld.zld_face_rec_app:id/recycler_view']/LinearLayout","69f63897-bcc2-416f-9916-a39e9e4baf73"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='com.zld.zld_face_rec_app:id/recycler_view']/LinearLayout","context":"","multiple":true}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='com.zld.zld_face_rec_app:id/recycler_view']/LinearLayout","context":"","multiple":true}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='com.zld.zld_face_rec_app:id/recycler_view']/LinearLayout' using 'XPATH' with the contextId: '' multiple: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/69f63897-bcc2-416f-9916-a39e9e4baf73/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='com.zld.zld_face_rec_app:id/recycler_view']/LinearLayout' using 'XPATH' with the contextId: '' multiple: true
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[35m[BaseDriver][39m Shutting down because we waited 60 seconds for a command
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 69f63897-bcc2-416f-9916-a39e9e4baf73 from our master session list
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell am force-stop com.zld.zld_face_rec_app'
+[debug] [35m[ADB][39m Pressing the HOME button
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell input keyevent 3'
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[UiAutomator][39m Shutting down UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'stopping'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Time: 83567.905
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] OK (1 test)
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+[debug] [35m[UiAutomator][39m UiAutomator shut down normally
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\android-sdk\platform-tools\adb.exe -P 5037 -s a6a6a8b39904 shell am force-stop io.appium.unlock'
+[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+´æ´¢²»×ã£¬ÎÞ·¨´¦Àí´ËÃüÁî¡£
+
+C:\Users\CY\Desktop\UIAutotest\TestCase\Android>
